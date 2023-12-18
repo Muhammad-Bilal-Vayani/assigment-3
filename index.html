@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Phone Search</title>
+</head>
+<body>
+
+  <label for="searchType">Search By:</label>
+  <select id="searchType">
+    <option value="brand">Brand</option>
+    <option value="model">Model</option>
+    <option value="price">Price</option>
+    <option value="camera">Camera</option>
+    <!-- Add more options as needed -->
+  </select>
+
+  <input type="text" id="searchInput" placeholder="Enter search term">
+
+  <button onclick="searchMobilePhones()">Search</button>
+
+  <ul id="resultList">
+    <!-- Result items will be displayed here -->
+  </ul>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
